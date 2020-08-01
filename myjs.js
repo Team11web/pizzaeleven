@@ -33,3 +33,14 @@ anime({
     easing: 'easeInOutSine',
     direction:'reverse'
   });   
+
+
+  var hungry = document.querySelector(".order > h1");
+  anime({
+    targets: hungry,
+    translateX: 250,
+    direction: 'alternate',
+    loop: true,
+    easing: 'steps(5)',
+    delay:3000
+  })
