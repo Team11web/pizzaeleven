@@ -38,7 +38,7 @@ anime({
   var hungry = document.querySelector(".order > h1");
   anime({
     targets: hungry,
-    translateX: 250,
+    translateX: 150,
     direction: 'alternate',
     loop: true,
     easing: 'steps(5)',
