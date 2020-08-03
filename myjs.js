@@ -3,7 +3,6 @@ var drop = document.querySelector(".navbar ul");
 var navBar = document.querySelector(".navbar");
 
 
-
 menuBar.addEventListener("click",function() {
     drop.classList.toggle("dropdown");
 });
@@ -38,9 +37,9 @@ anime({
   var hungry = document.querySelector(".order > h1");
   anime({
     targets: hungry,
-    translateX: 150,
+    letterSpacing: ['0px', '8px'],
     direction: 'alternate',
     loop: true,
-    easing: 'steps(5)',
-    delay:3000
+    delay:2000
   })
+  

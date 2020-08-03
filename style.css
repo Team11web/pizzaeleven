@@ -66,6 +66,7 @@ body {
 
 .navbar ul a:hover {
     background: #ffc900;
+    padding: none;
 }
 
 .page-1 {
@@ -284,11 +285,16 @@ body {
         width:100%;
         top: 4rem;
         background: white;
+        right: 0;
     }
     
     .dropdown a {
         background: none;
         border: none;
+    }
+
+    .navbar ul a:hover {
+        border-radius: 0;
     }
 
     
@@ -311,6 +317,7 @@ body {
     .navbar .dropdown a {
         border:none;
         background: none;
+        margin: 0;
     }
 
     .navbar .dropdown a li {
